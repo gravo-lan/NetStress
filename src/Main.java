@@ -55,7 +55,6 @@ public class Main extends Frame{
         private final AtomicBoolean running = new AtomicBoolean(true);
         private final String request; //your victim here
         private final URL url;
-
         String param;
 
         public DdosThread(String r) throws Exception {
