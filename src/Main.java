@@ -5,7 +5,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Main extends Frame{
-
     Label target = new Label("Target URL: ",Label.LEFT);
     Label threads = new Label("Threads: ",Label.LEFT);
     TextField url = new TextField("URL");
